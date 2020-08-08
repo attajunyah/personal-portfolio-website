@@ -1,0 +1,196 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: thistle;
+    }
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: thistle;
+    }
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: thistle;
+    }
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: thistle;
+    }
+} 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: thistle;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: coral;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+#profile-photo {
+    max-width: 100%;
+    height: 70%;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    margin-top: 25%;
+    border-radius: 50%;
+    
+}
+
+#welcome-section {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    height: 100vh;
+    place-items: center;
+    font-size: 40px;  
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    place-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    font-style: oblique;
+    color: black;
+
+}
+
+a:hover {
+    background-color: #eee;
+}
+
+#projects {
+    background-color: coral;
+    text-align: center;
+    font-size: larger;
+    
+
+   
+}
+
+#project-tile {
+    background-color: thistle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.parent {
+    height: auto;
+
+    
+}
+
+.visual {
+    
+    height: 200px;
+    width: 100%;
+    
+}
+
+.card {
+    height: 400px;
+    max-width: 100%;;
+    margin-right: 30%;
+    margin-left: 30%;
+    box-shadow: inset 0 0 15px 5px rgba(0,0,0,0.75);
+    
+}
+
+h3 {
+    margin: 0;
+    font-size: larger;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 50px;
+    display: grid;
+    place-items: center;
+}
+
+p {
+    font-family: "Lucida Sans";
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: 250px;
+    
+}
+
+#profiles {
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#profiles img {
+    height: 100px;
+}
+
+#profile-link {
+    text-decoration: none;
+}
+
+#fb-link {
+    text-decoration: none;
+}
+
+#ig-link {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    height: 70px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-style: italic;
+    
+}
